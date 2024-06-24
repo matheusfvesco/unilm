@@ -24,7 +24,7 @@
 		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
 			"installCudnn": false,
 			"installToolkit": false,
-			"cudaVersion": "12.2"
+			"cudaVersion": "12.1"
 		}
 	}
 
