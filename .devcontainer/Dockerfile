@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/python:3.12-bullseye
+FROM mcr.microsoft.com/devcontainers/python:3.10-bullseye
 
 # sets the cuda variables for CUDA support in docker
 ENV NVIDIA_VISIBLE_DEVICES "all"
