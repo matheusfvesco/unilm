@@ -22,7 +22,9 @@
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	"features": {
 		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
-			"cudaVersion": "12.2",
+			"installCudnn": false,
+			"installToolkit": false,
+			"cudaVersion": "12.2"
 		}
 	}
 
